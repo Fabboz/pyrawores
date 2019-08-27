@@ -69,6 +69,7 @@ RECIPE("soil-extractormk01"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("wpu"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("fawogae-plantation"):replace_ingredient("copper-cable", "tinned-cable")
 RECIPE("advanced-foundry-mk01"):replace_ingredient("steel-furnace", "stone-furnace")
+RECIPE("chemical-science-pack"):replace_ingredient("iron-plate", "stainless-steel")
 
 
 RECIPE("gasturbinemk02"):replace_ingredient("pipe", "niobium-pipe"):replace_ingredient("iron-plate", "duralumin")
@@ -447,12 +448,12 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 300},
-        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
-        {type = "item", name = "ore-lead", amount = 15}
+        {type = "item", name = "ore-lead", amount = 20}
     },
     icon = "__pyrawores__/graphics/icons/drilling-lead.png",
     icon_size = 32,
@@ -527,8 +528,8 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 300},
-        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "fluid", name = "lubricant", amount = 200},
+        {type = "fluid", name = "coal-gas", amount = 200},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {
@@ -547,8 +548,8 @@ RECIPE {
     enabled = false,
     energy_required = 2.0,
     ingredients = {
-        {type = "fluid", name = "lubricant", amount = 300},
-        {type = "fluid", name = "coal-gas", amount = 300},
+        {type = "fluid", name = "lubricant", amount = 250},
+        {type = "fluid", name = "coal-gas", amount = 250},
         {type = "item", name = "drill-head", amount = 1}
     },
     results = {

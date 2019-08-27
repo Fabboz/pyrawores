@@ -16,7 +16,7 @@ RECIPE("hydrocyclone"):replace_ingredient("centrifuge", "classifier")
 RECIPE("hydrocyclone"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk02")
 RECIPE("py-heat-exchanger"):remove_unlock("fuel-production"):add_unlock("coal-processing-2")
 
-RECIPE("mixer"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
+RECIPE("mixer"):remove_unlock("advanced-mining-facilities"):remove_unlock("basic-electronic"):add_unlock("machines-mk01")
 RECIPE("mixer"):replace_ingredient("iron-plate", "aluminium-plate"):replace_ingredient("chemical-plant", "washer")
 
 RECIPE("secondary-crusher"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01"):replace_ingredient("electric-engine-unit", "engine-unit"):remove_ingredient("nbfe-alloy"):add_ingredient({type = "item", name = "duralumin", amount = 20})
@@ -24,6 +24,7 @@ RECIPE("secondary-crusher"):remove_unlock("advanced-mining-facilities"):add_unlo
 RECIPE("automated-screener"):remove_unlock("advanced-mining-facilities"):add_unlock("machines-mk01")
 
 RECIPE("jig"):remove_unlock("diamond-mining"):add_unlock("machines-mk02"):add_ingredient({type = "item", name = "stainless-steel", amount = 20})
+RECIPE("control-unit"):replace_ingredient("iron-plate", "stainless-steel")
 
 RECIPE("u-79-2"):remove_unlock("uranium-mk04")
 RECIPE("u-79"):add_unlock("uranium-mk04")
