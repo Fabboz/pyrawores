@@ -33,13 +33,14 @@ ENTITY {
     icon = "__pyrawores__/graphics/icons/bof-mk02.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "bof-mk02"},
+    minable = {mining_time = 0.5, result = "bof-mk02"},
     fast_replaceable_group = "bof-mk01",
     max_health = 100,
     corpse = "medium-remnants",
     dying_explosion = "big-explosion",
     collision_box = {{-3.3, -3.3}, {3.3, 3.3}},
     selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
+    match_animation_speed_to_activity = false,
     module_specification = {
         module_slots = 1
     },
@@ -97,7 +98,7 @@ ENTITY {
                 line_length = 6,
                 width = 128,
                 height = 160,
-                animation_speed = 0.6
+                animation_speed = 1
             }
         },
     },
